@@ -62,5 +62,27 @@ Para invocar un metodo de una clase superior se hace de un modo diferente, se an
 super y un punto+el nombre del metodo
 
 Todo lo heredado es implicito e invisible, cuando se quiere invocar un metodo de la sup se pone la palabra
-clave y un punto, en caso querer invocar un super mas alto, se pone el nombre de la clase y el punto
+clave y un punto, en caso querer invocar un super mas alto, se pone el nombre de la clase y el punto.
+--------------------------------------------------------------------------------------------------------
+12/06/2024
+el proyecto bimestral se hara con los mismos integrantes, ahora debemos modificarlo demostrando asi que este
+tiene implementado en su desarrollo los dos pilares de herencia y polimorfismo
+
+La ultima semana se nos indica una herramienta que mediante el modelado uml nos da de una el codigo
+
+En herencia el ejecutable esta en las hijas, en polimorfismo estaran los ejecutables los el padre y la hija tendran
+en herencia se lleva a cabo asi porque al ejecutar las hijas la clase padre igual se ejecuta
+
+herencia=inheritance
+
+Por lo general en una herarquia de herencia no suelen ponerse en diferente paquetes las clases
+
+A la hora de hacer los talleres tener en cuenta las cardianalidades, que son 0 1 *
+0 puede que no tenga(cuando una clase tiene de agregacion a la otra, osea independiente de esta)1->0->2
+1 debe tener una y solo una 
+* puede tener 0, 1, o muchas
+
+Para herencia no hay cardinalidad, todo el segundo bimestre desde ahora tendra herencia
+
+El 5 y el 6 de los ejercicios enviados no se revisara, solo hasta el ejercicio 4 se revisara
 */
