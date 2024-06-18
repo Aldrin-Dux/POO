@@ -85,4 +85,13 @@ A la hora de hacer los talleres tener en cuenta las cardianalidades, que son 0 1
 Para herencia no hay cardinalidad, todo el segundo bimestre desde ahora tendra herencia
 
 El 5 y el 6 de los ejercicios enviados no se revisara, solo hasta el ejercicio 4 se revisara
+---------------------------------------------------------------------------------------------------------
+18/06/2024
+el proximo martes se revisara los dos criterios faltantes de este dia, hoy es de los uml, el martes que viene
+sera la codificacion y los resultados
+
+Poner de forma correspondiente las relaciones que hay entre las clases, los nombres en las clases deben ser
+en singular, no es relevante a la hora de codificacion pero es buena practica
+
+Se realiza un ejercicio en clases llamado EstudioCaso2
 */
