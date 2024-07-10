@@ -94,4 +94,36 @@ Poner de forma correspondiente las relaciones que hay entre las clases, los nomb
 en singular, no es relevante a la hora de codificacion pero es buena practica
 
 Se realiza un ejercicio en clases llamado EstudioCaso2
+--------------------------------------------------------------------------------------------------------
+Ejercicio:
+se desea realizar una aplicacion que permita a un periodista deportivo llevar
+las estadisticas de los jugadores de un equipo de futbol para poder salvar su
+actuacion en el partido.
+
+Cada jugador se identifica por su nombre, numero de dorsar y Rut.
+
+Los jugadores se han dividido en 3 categorias
+1 atacantes
+2 defensores
+3 porteros
+
+para todos los jugadores se desea contabilizar el numero de goles marcados,
+ademas en el caso de los jugadores de campo se contabilizan los pases realizados
+con extio el numero de balones recuperados.
+
+en el dcaso de los porteros se contabilizan las atabajdas realizadas.
+
+La valoracion de cada jugador se compone de un valor comun:
+valoracion goles= goles*30.
+
+y de una parte diferente segun el tipo de jugador:
+
+1 atacantes 
+valoracion goles+pases*2+recuperaciones*3.
+
+2 defensores
+valoracion+pases+recuperaciones*4.
+
+3 Porteros
+valoraciongoles+paradas*5.
 */
