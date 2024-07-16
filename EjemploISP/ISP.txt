@@ -1,0 +1,24 @@
+Principio:
+---------------------------------------
+"Una clase no debería estar forzada a depender de interfaces que no utiliza. En otras palabras, es mejor tener varias interfaces específicas y pequeñas que una interfaz grande y general."
+---------------------------------------
+
+
+Para poder entender el principio de segregación de interfases voy a platear un ejemplo muy sencillo.
+
+Imaginemos que tenemos que hacer un programa para controlar diferentes tipos de dispositivos de impresión
+como pueden ser Impresoras y Escáneres para ello creamos una interfase que tenga como nombre 
+Dispositivos de impresión e incluimos una serie de métodos como los son imprimir y escanear.
+
+Si no aplicamos el principio de segregación de interfases podríamos forzar a las clases a usar métodos que no 
+necesitan como lo es que escáner imprima o que la impresora escanee...claro esto hablando de escáneres y impresoras muy básicas. 
+
+el resultado de este es un código menos eficientes y mucho mas difícil de mantener.
+
+Para crear un diseño mas adecuado deberíamos implementar el principio de segregación de interfases y envés de usar lo anterior podríamos
+dividirla en interfases mas pequeñas como lo son impresora y escáner cada una, poseyendo una interfaz diferente.
+
+Porque así cada clase solo deberá implementar los método que realmente necesita.
+
+Como se puede observar al aplicar el principio de segregación no solo reducimos las dependencias entre clases si no también 
+esto nos facilita la propia reutilización del código.
